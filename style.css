@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(46, 46, 46)
+}
+
+h1{
+  color: rgb(53, 161, 125);
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+color:rgb(34, 105, 82);
+line-height: 50px;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.cta{
+  background-color:rgb(34, 105, 82);
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.card_white{
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 40px 0px;
+  box-shadow: 10px 5px 5px rgba(146, 143, 143, 0.089);;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.img_ronde {
+  border-radius: 50%;
+  border: 5px;
+  border-color: rgb(53, 161, 125);
+}
+
+.cta:hover{
+  background-color: rgb(23, 53, 43);;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
